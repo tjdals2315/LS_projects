@@ -20,15 +20,6 @@ st.set_page_config(
     page_icon="https://www.blackstone-labs.com/wp-content/themes/blackstone/favicon.png",
 )
 
-
-file_path = 'data/train.csv'  # 상대 경로 사용
-
-try:
-    df = pd.read_csv(file_path)
-    st.write(df)
-except FileNotFoundError as e:
-    st.error(f"File not found: {file_path}\nError: {e}")
-
 # CSV 파일을 로드합니다.
 file_path = '4th_project/dashboard/data/train.csv' 
 data = pd.read_csv(file_path)
