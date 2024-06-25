@@ -29,9 +29,9 @@ try:
 except FileNotFoundError as e:
     st.error(f"File not found: {file_path}\nError: {e}")
 
-# # CSV 파일을 로드합니다.
-# file_path = '/Users/seongmin/Documents/LS_projects/4th_project/dashboard/data/train.csv' 
-# data = pd.read_csv(file_path)
+# CSV 파일을 로드합니다.
+file_path = '4th_project/dashboard/data/train.csv' 
+data = pd.read_csv(file_path)
 
 # 컴포넌트 리스트 (특정 순서로 정렬)
 component_order = ['COMPONENT1', 'COMPONENT2', 'COMPONENT3', 'COMPONENT4']
