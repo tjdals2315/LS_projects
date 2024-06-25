@@ -46,3 +46,4 @@ urllib3==2.2.1
 st_pages
 streamlit_extras
 seaborn
+lightgbm
