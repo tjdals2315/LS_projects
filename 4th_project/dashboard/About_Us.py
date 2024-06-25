@@ -6,8 +6,8 @@ from streamlit_extras.let_it_rain import rain
 import matplotlib.pyplot as plt
 
 # 이미지 로드
-image1 = Image.open('images/OIL.png')
-image2 = Image.open('images/yeah.png')
+image1 = Image.open('4th_project/dashboard/images/OIL.png')
+image2 = Image.open('4th_project/dashboard/images/yeah.png')
 
 # 한글 폰트 설정
 plt.rcParams['font.family'] = 'AppleGothic'

@@ -78,7 +78,7 @@ if selected_component == "Component 1":
 	st.title("📢모델 학습 결과 보기")
 	st.write("##### 🪄모델을 학습시키고 싶으시면 아래 버튼을 클릭하세요")
 
-	df = pd.read_csv('/Users/seongmin/Documents/projects/data/component1_preprocessed.csv')
+	df = pd.read_csv('/Users/seongmin/Documents/LS_projects/4th_project/dashboard/data/component1_preprocessed.csv')
 	model = joblib.load('models/LGBMClassifier_model_1.pkl')
 
 	if st.button("➡️모델 평가 하기"):
@@ -201,7 +201,7 @@ if selected_component == "Component 2":
 	st.title("📢모델 학습 결과 보기")
 	st.write("##### 🪄모델을 학습시키고 싶으시면 아래 버튼을 클릭하세요")
 
-	df = pd.read_csv('/Users/seongmin/Documents/projects/data/component2_preprocessed.csv')
+	df = pd.read_csv('/Users/seongmin/Documents/LS_projects/4th_project/dashboard/data/component2_preprocessed.csv')
 	model = joblib.load('models/LGBMClassifier_model_2.pkl')
 
 	if st.button("➡️모델 평가 하기"):
@@ -322,7 +322,7 @@ if selected_component == "Component 3":
 	st.title("📢모델 학습 결과 보기")
 	st.write("##### 🪄모델을 학습시키고 싶으시면 아래 버튼을 클릭하세요")
 
-	df = pd.read_csv('/Users/seongmin/Documents/projects/data/component3_preprocessed.csv')
+	df = pd.read_csv('/Users/seongmin/Documents/LS_projects/4th_project/dashboard/data/component3_preprocessed.csv')
 	model = joblib.load('models/LGBMClassifier_model_3.pkl')
 
 	if st.button("➡️모델 평가 하기"):
@@ -442,7 +442,7 @@ if selected_component == "Component 4":
 	st.title("📢모델 학습 결과 보기")
 	st.write("##### 🪄모델을 학습시키고 싶으시면 아래 버튼을 클릭하세요")
 
-	df = pd.read_csv('/Users/seongmin/Documents/projects/data/component4_preprocessed.csv')
+	df = pd.read_csv('/Users/seongmin/Documents/LS_projects/4th_project/dashboard/data/component4_preprocessed.csv')
 	model = joblib.load('models/SGDClassifier_model_4.pkl')
 
 	if st.button("➡️모델 평가 하기"):

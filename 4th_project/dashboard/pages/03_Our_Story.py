@@ -20,12 +20,12 @@ st.markdown('<p class="center-text">여기에는 우리가 프로젝트를 진�
 
 # 이미지 파일 경로 리스트
 image_paths = [
-    r'images/image5.jpg',
-    r'images/image2.jpg',
-    r'images/image4.jpg',
-    r'images/image7.jpg',
-    r'images/image3.jpg',
-    r'images/image6.jpg'
+    r'4th_project/dashboard/images/image5.jpg',
+    r'4th_project/dashboard/images/image2.jpg',
+    r'4th_project/dashboard/images/image4.jpg',
+    r'4th_project/dashboard/images/image7.jpg',
+    r'4th_project/dashboard/images/image3.jpg',
+    r'4th_project/dashboard/images/image6.jpg'
 ]
 
 # 각 이미지에 대한 설명 리스트
@@ -50,7 +50,7 @@ st.markdown('<p class="center-text subtitle">이 프로젝트는 우리의 몰�
 
 # 마지막 이미지를 크게 삽입
 st.markdown("##")
-last_image_path = r'images/image1.jpg'
+last_image_path = r'4th_project/dashboard/images/image1.jpg'
 last_image = Image.open(last_image_path)
 st.image(last_image, caption='LS빅데이터스쿨에서 다함께 지내며 감사했습니다! 🎓', use_column_width=True)
 

@@ -21,7 +21,7 @@ st.set_page_config(
 )
 
 # CSV 파일을 로드합니다.
-file_path = '/Users/seongmin/Documents/projects/data/train.csv' 
+file_path = '/Users/seongmin/Documents/LS_projects/4th_project/dashboard/data/train.csv' 
 data = pd.read_csv(file_path)
 
 # 컴포넌트 리스트 (특정 순서로 정렬)
