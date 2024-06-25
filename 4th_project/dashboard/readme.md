@@ -6,7 +6,7 @@ Welcome to the My Streamlit Dashboard Project repository! This project showcases
 
 For a live preview of the dashboard, click [here](https://lsprojects-nb4r5yqy8ucxxr9vju9hmp.streamlit.app/).
 
-![Dashboard Screenshot](path/to/screenshot.png)
+![Dashboard Screenshot](4th_project/dashboard/images/yeah.png)
 
 ## Introduction
 
