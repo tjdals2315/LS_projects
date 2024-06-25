@@ -20,9 +20,18 @@ st.set_page_config(
     page_icon="https://www.blackstone-labs.com/wp-content/themes/blackstone/favicon.png",
 )
 
-# CSV 파일을 로드합니다.
-file_path = '/Users/seongmin/Documents/LS_projects/4th_project/dashboard/data/train.csv' 
-data = pd.read_csv(file_path)
+
+file_path = 'data/train.csv'  # 상대 경로 사용
+
+try:
+    df = pd.read_csv(file_path)
+    st.write(df)
+except FileNotFoundError as e:
+    st.error(f"File not found: {file_path}\nError: {e}")
+
+# # CSV 파일을 로드합니다.
+# file_path = '/Users/seongmin/Documents/LS_projects/4th_project/dashboard/data/train.csv' 
+# data = pd.read_csv(file_path)
 
 # 컴포넌트 리스트 (특정 순서로 정렬)
 component_order = ['COMPONENT1', 'COMPONENT2', 'COMPONENT3', 'COMPONENT4']
